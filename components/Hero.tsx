@@ -1,6 +1,8 @@
 import { Spotlight } from './ui/Spotlight'
 import { cn } from "@/lib/utils";
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
+import  MagicButton  from './ui/MagicButton';
+import { FaLocationArrow } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -12,17 +14,17 @@ const Hero = () => {
         <Spotlight className='top-28 left-80 h-[80vh] w-[50vw]' fill='blue' />
       </div>
 
-      <div className="flex h-screen w-full items-center justify-center bg-white dark:bg-black-100 absolute top-0 left-0 ">
+      <div className="h-[700px] w-full  dark:bg-black-100 bg-white absolute top-0 left-0 flex items-center justify-center     ">
         <div
           className={cn(
-            "absolute inset-0",
+            "absolute inset-0 ",
             "[background-size:40px_40px]",
             "[background-image:linear-gradient(to_right,#e4e4e7_1px,transparent_1px),linear-gradient(to_bottom,#e4e4e7_1px,transparent_1px)]",
-            "dark:[background-image:linear-gradient(to_right,#262626_1px,transparent_1px),linear-gradient(to_bottom,#262626_1px,transparent_1px)]",
+            "dark:[background-image:linear-gradient(to_right,rgba(38,38,38,0.3)_1px,transparent_1px),linear-gradient(to_bottom,rgba(38,38,38,0.3)_1px,transparent_1px)]"
           )}
         />
         {/* Radial gradient for the container to give a faded look */}
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"></div>
+        <div className="pointer-events-none absolute  inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"></div>
 
       </div>
 
@@ -31,7 +33,19 @@ const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
             Dynamic Web Magic with Next.js
           </h2>
-          <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words="Transforming Concepts int Seamless Experiences" />
+          <TextGenerateEffect className='text-center text-[40px] md:text-5xl lg:text-6xl' words="Transforming Concepts int Seamless User Experiences" />
+
+          <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+            Hi, I&apos;'m Bilgehan, a Frontend Developer. 
+          </p>
+          <a href='#about' className=''>
+            <MagicButton 
+              title="Show my work"
+              icon={<FaLocationArrow />}
+              position="right"
+
+            />
+          </a>
         </div>
       </div>
 
@@ -40,3 +54,4 @@ const Hero = () => {
 }
 
 export default Hero
+
