@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 
+
 export const InfiniteMovingCards = ({
 	items,
 	direction = "left",
@@ -101,7 +102,7 @@ export const InfiniteMovingCards = ({
 							<div className="relative z-20 mt-6 flex flex-row items-center">
 								<span className="flex flex-col gap-1">
 									<div className="me-3">
-										<img src="/profile.svg" alt="profile" />
+										<img src="/profile.svg" alt="profile"  />
 									</div>
 									<div className="flex flex-col gap-1" >
 
