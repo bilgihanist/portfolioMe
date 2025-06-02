@@ -10,7 +10,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication",
+      title: "I believe in clear communication and shared vision. Good results come from working together.",
       description: "",
       className: "md:col-span-4 md:row-span-2", // %60 alan
       imgClassName: "w-full h-full",
