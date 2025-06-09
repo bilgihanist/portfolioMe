@@ -50,17 +50,17 @@ export const navItems = [
     },
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "I'm a Frontend Developer focused on user experience, building performant and aesthetic interfaces with React and Next.js.",
+      description: "About me",
       className: "md:col-span-4 md:row-span-2", // sağ büyük
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-start",
+      titleClassName: "justify-center md:justify-start lg:justify-start  ",
       img: "/b5.svg",
       spareImg: "/grid.svg",
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Open to new projects and collaborations.",
       description: "",
       className: "md:col-span-2 md:row-span-1", // sol alt (2)
       imgClassName: "",
