@@ -3,7 +3,7 @@ import { link } from "fs";
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Skills", link: "#skills" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -74,39 +74,40 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "dedapps - Frontend Developer",
+      des: "Worked as a Frontend Developer at Dedapps agency, building projects for Web3-focused companies and hackathons.",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/bilgihanist",
+      iconLists: ["/re.svg","next.svg", "/tail.svg","bt.svg", "/ts.svg","/js.svg", "fm.svg",],
+      link: "https://dedapps.com/",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Atlas Software JSC - Web3 Frontend Team Lead",
+      des: "Responsible for developing crypto payment dashboards, e-commerce platforms, and various Web3 projects.",
       img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/bilgihanist",
+      iconLists: ["re.svg","/next.svg", "/tail.svg", "/ts.svg","js.svg","/dock.svg", "/stream.svg", "/w3.svg","/eth.svg"],
+      link: "https://www.atlasyazilim.com.tr/en",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "Network Academy - Fullstack Developer / Instructor",
+      des: "Worked as a Fullstack Developer and later provided training in frontend development.",
       img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/bilgihanist",
+      iconLists: ["re.svg","/next.svg","v.svg", "/tail.svg","bt.svg", "/ts.svg","js.svg"],
+      link: "https://www.networkakademi.net",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "Bemol Media Software Studio - Software Developer / Intern",
+      des: "Developed Web2 projects including integrations, dashboard interfaces, and corporate websites.",
       img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/bilgihanist",
+      iconLists: ["/re.svg", "/bt.svg", "/ts.svg","js.svg"],
+      link: "https://www.linkedin.com/company/bemolmedya/?originalSubdomain=tr",
     },
+
   ];
   
-  export const testimonials = [
+  export const skills = [
     {
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
@@ -142,27 +143,27 @@ export const navItems = [
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "react",
+      img: "/re.svg",
+      nameImg: "/reactName.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "next",
+      img: "/next.svg",
+      nameImg: "/nextName.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      name: "tailwind",
+      img: "/tail.svg",
+      nameImg: "/tailwindName.svg",
     },
     {
       id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
+      name: "bootstrap",
+      img: "/bt.svg",
+      nameImg: "/bootstrapName.svg",
     },
     {
       id: 5,
@@ -170,34 +171,70 @@ export const navItems = [
       img: "/dock.svg",
       nameImg: "/dockerName.svg",
     },
+    {
+      id: 6,
+      name: "typescript",
+      img: "/ts.svg",
+      nameImg: "/typescriptName.svg",
+    },
+    {
+      id: 7,
+      name: "javascript",
+      img: "/js.svg",
+      nameImg: "/javascriptName.svg",
+    },
+    {
+      id: 8,
+      name: "framermotion",
+      img: "/fm.svg",
+      nameImg: "/framermotionName.svg",
+    },
+    {
+      id: 9,
+      name: "vite",
+      img: "/vi.svg",
+      nameImg: "/viteName.svg",
+    },
+    {
+      id: 10,
+      name: "zustand",
+      img: "/zus.svg",
+      nameImg: "/zustandName.svg",
+    },
+    {
+      id: 11,
+      name: "redux",
+      img: "/rx.svg",
+      nameImg: "/reduxName.svg",
+    },
   ];
   
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Frontend Developer",
+      desc: "Building user-focused web interfaces using modern technologies like React, Next.js, and Vue. I create fast, dynamic, and scalable web experiences.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Mobile App Developer (React Native)",
+      desc: "Developing clean, performant, and user-friendly mobile apps for both iOS and Android using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Computer Engineer / Frontend Engineer",
+      desc: "A frontend engineer with a background in computer engineering, combining technical architecture with problem-solving skills.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "UI/UX Enthusiast",
+      desc: "A developer who cares deeply about user experience, focusing on clean, intuitive, and visually appealing interfaces.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -207,14 +244,17 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/bilgihanist",
 
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "https://x.com/bilgihanist",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/bilgehan-istanbullu/",
     },
   ];

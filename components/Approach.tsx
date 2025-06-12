@@ -13,8 +13,8 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4 ">
         <Card
           title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          description="Phase 1 is all about understanding the project requirements, defining goals, and creating a roadmap for success."
+          icon={<AceternityIcon order="Step 1: Listen" />}
+          description="Every project starts with listening. I focus on understanding the needs, setting clear goals, and creating a realistic roadmap. This foundation ensures clarity before a single line of code is written."
           >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,9 +22,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phane 2"/>}
-          description="Phase 2 focuses on design and development, where we bring the project to life with creativity and technical expertise."
+          title="Design & Development"
+          icon={<AceternityIcon order="Step 2: Design"/>}
+          description="This is where ideas turn into interfaces. I design clean, responsive UIs and build them using modern frontend tools — React, Next.js, React Native, Tailwind and more — with frequent progress updates to stay aligned."
           >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -37,9 +37,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Finalization"
-          icon={<AceternityIcon order="Phase 3"/>}
-          description="Phase 3 is the final stage where we polish the project, ensuring everything is perfect before launch."
+          title="Testing & Final Touches"
+          icon={<AceternityIcon order="Step 3: Test"/>}
+          description="Before launch, I refine every detail — checking for bugs, optimizing performance, and ensuring responsive behavior across all devices. The result? A polished product that’s ready for real users."
           >
           <CanvasRevealEffect
             animationSpeed={3}
